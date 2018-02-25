@@ -1,0 +1,37 @@
+<!--
+<div>
+    <div  class="gallery" *ngFor="let dispimage of imageList ">
+ 
+    <img src="{{dispimage.Destination}}" style="width:208px;height:284px;"/>
+     <a href="{{dispimage.RecordName}}" target="_blank">Shop Now</a>
+  alt="Responsive image" class="img-thumbnail"
+  
+   </div>
+  -->
+<div align="center" class="form-section2" id="form-section2">
+  <div class="container_13">
+     
+  <ngx-carousel
+      [inputs]="carouselOne"
+      (carouselLoad)="myfunc($event)">
+    <!--
+        <div  *ngFor="let dispimage of pinterestImages ">
+        -->
+            <ngx-tile NgxCarouselItem *ngFor="let dispimage of imageList;let i=index ">
+          
+            <!--
+              alt="Responsive image"
+            <ngx-item *ngFor= "let dispimage of pinterestImages ">
+            -->
+            <img src="{{dispimage.Destination}}" style="width:475px;height:300px;"/>
+            <a href="{{dispimage.RecordName}}" target="_blank">Shop Now</a>
+            </ngx-tile>
+      
+       
+        <button NgxCarouselPrev class='leftRs'>&lt;</button>
+        <button NgxCarouselNext class='rightRs'>&gt;</button>
+  </ngx-carousel>
+
+</div>
+</div>
+  
