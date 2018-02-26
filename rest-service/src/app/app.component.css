@@ -1,1 +1,51 @@
 
+h1{
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgb(243, 135, 12);
+    outline: 1px solid #fff;
+    outline-offset: -8px;
+    display: inline-block;
+    width: 300px;
+    font-size: 62px;
+    padding: 5px;
+    font-family: 'gothambold';
+    font-style: italic;  
+}
+
+h1 span{
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #AEB6BF;
+    font-style: italic;
+    font-size: 13px;
+    padding: 5px;
+    font-family: 'gotham'; 
+}
+
+h3 { padding:20px;
+     text-align:center;
+     background-color: rgb(81, 151, 231);
+     display: inline-block;
+    }
+
+    h4 { padding:20px;
+        text-align:left;
+        background-color: rgb(81, 151, 231);
+        font-family: 'gothambold';
+       }
+
+       @font-face {
+        font-family: 'GothamBold';
+        src: url('../assets/GothamBold.ttf')  format('truetype'),
+             url('../assets/GothamBoldItalic.ttf')  format('truetype');
+        font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'GothamBook';
+            src:  url('../assets/GothamBook.ttf')  format('truetype'),
+            url('../assets/GothamBookItalic.ttf')  format('truetype');
+            }

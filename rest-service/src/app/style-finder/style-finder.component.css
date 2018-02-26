@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../assets/GothamBold.ttf')  format('truetype'),
+         url('../../assets/GothamBoldItalic.ttf')  format('truetype');
+    font-weight: bold;
+    }
+
+
+h5 { padding:10px;
+     text-align:center; 
+     font-family: GothamBold;
+    font-size: 20px;
+    font-style: italic;
+    color: #0e6bb8;
+    }
+
 
 h3 { padding:20px; text-align:center; }
 
@@ -61,19 +77,25 @@ h2{
 div.relative {
     position: relative;
     right: -200px;
-    top: -90px;
+    top: -125px;
    
 }
 div.relative1 {
     position: relative;
     right: -450px;
-    top: -460px;
+    top: -480px;
 }
 div.relative2 {
         position: relative;
         right: 0px;
         top: 0px;
    
+}
+div.relative3 {
+    position: relative;
+    right: -400px;
+    top: 0px;
+
 }
 div.gallery img {
     width: 75%;
@@ -379,7 +401,7 @@ h1 span{
     font-family: Gotham;
     color: #ffffff;
     line-height: 30px;
-    background-color: rgb(224, 150, 64);
+    background-color: rgb(102, 88, 72);
 }
 
 input[type=text] { 
@@ -412,7 +434,7 @@ input[type=text] {
 }
 
 .form-section[_ngcontent-c1] {
-    background-color: #6984a3;
+    background-color: #4a80be;
     height: 400px;
     
 }
@@ -421,10 +443,10 @@ input[type=text] {
 .form-section label {
     display: block;
     text-align: left;
-    color: rgb(163, 182, 219);
-    text-decoration: underline;
+    color: rgb(228, 142, 30);
+    
     font-style: bold;
-    font-size: 15px;
+    font-size: 17px;
     padding: 5px;
     font-family: Gotham;
 }
@@ -447,12 +469,12 @@ input[type=text] {
     font-family: GothamBook;
     font-size: 13px;
     font-style: italic;
-    color: #ddcf9f;
+    color: #3d3b3b;
     padding-bottom: 10px;
 }
 
 .form-section2[_ngcontent-c1] {
-    background-color: #dbd4ca;
+    background-color: #e7a447;
     height: 600px;
     
 }
@@ -487,7 +509,7 @@ input[type=text] {
     font-family: GothamBook;
     font-size: 13px;
     font-style: italic;
-    color: #ebc750;
+    color: #1497be;
     padding-bottom: 10px;
 }
 
@@ -544,3 +566,4 @@ div.gallery img {
     width: 100%;
     height: auto;
 }
+
